@@ -1,0 +1,258 @@
+.nav-bar {
+    background-color: #F7F8FA;
+    text-align: center;
+    background-image: url("https://dmhqppb4umb6.cloudfront.net/saylani-logo.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: 100px;
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+}
+ul {
+    margin-left: 300px;
+}
+li {
+    line-height: 1.7;
+    color: #666666;;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 0.8em;
+    font-family: sans-serif;
+}
+.mobile-nav-icon{
+    display: none;
+}
+
+.button {
+    background-color: #316DC3;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+.social-nav {
+    background-color: #316DC3;
+    color: white;
+    padding: 15px 0;
+    line-height: 2.5;
+    display: flex;
+    justify-content: space-around;
+}
+.icon1 {
+    margin: 0 12px;
+}
+.socail-nav-button{
+    padding:  3px 3px;
+    color: #006618;
+    border: 1px solid #006618;
+    margin: -2px 1px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.saylani-img {
+    width: 100%;
+}
+.headline {
+    background-color: #FFFFFF;
+}
+.headline-child {
+    background-color: #316DC3;
+    line-height: 1.7;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+    width: 90%;
+    color: #ECF2F9;
+}
+.introduction {
+    color: #979898;
+    width: 70%;
+    margin: 20px auto 100px auto;
+    text-align: justify;
+    line-height: 1.9;
+    font-size: 16px;
+}
+
+.contribution {
+    background-color: #2755E9;
+    padding: 40px 0;
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.numbers {
+    font-size: 50px;
+}
+.container-child {
+    line-height: 0.2;
+    margin: 20px 30px;
+    text-align: center;
+
+}
+.contribution-image {
+    width: 20%;
+}
+.achievement {
+    text-align: center;
+    background: rgb(247, 248, 250);
+    padding: 50px;
+}
+.achievement-child {
+    padding: 20px 0;
+    width: 30%;
+    margin: 20px 10px;
+    display: inline-block;
+    color: #316DC3;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 0.2;
+}
+.achievement-heading {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.green-heading {
+    color: #316DC3;
+}
+.blue-heading {
+    color: #427900;
+}
+.saylani-icon2 {
+    display: block;
+    margin: 5px auto;
+}
+.upcoming-projects {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #316DC3;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    padding: 40px 0;
+    flex-wrap: wrap;
+}
+.projects {
+    width: 60%;
+    
+}
+.events {
+    width: 25%;
+}
+.events-paragraph {
+    color: #898989;
+    padding: 20px 0;
+    font-weight: normal;
+}
+.project-box {
+    display: inline-block;
+    width: 44%;
+    margin: 10px 5px;
+    background-color: #F7F8FA;
+}
+.project-text {
+    padding: 4px 0;
+    display: inline-block;
+    margin: 30px 15px;
+}
+.project-img {
+    margin: 10px 0 0 2px;
+    display: inline-block;
+}
+.gallery-images {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin: 50px 0;
+}
+.gallery-items {
+    width: 16%;
+}
+.image-gallery {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 200px;
+}
+.footer {
+    background-color: #25272E;
+    color: #A5A5A6;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 80px;
+    text-align: center;
+    padding: 20px 0;
+
+}
+h3{
+    color: #FFFFFF;
+}
+
+.footer-bottom {
+    background-color: #316DD9;
+    display: flex;
+    
+    color: #DDE7F9;
+    font-size: 12px;
+}
+.icon2 {
+    margin: 0 4px;
+    color: #427900;
+}
+button{
+    cursor: pointer;
+}
+@media screen and (max-width: 992px){
+    .social-nav{
+        text-align: center;
+        flex-direction: column;
+    }
+    .container-child{
+        margin: 10px 10px;
+    }
+    .achievement-child{
+        width: 40%;
+    }
+    .events{
+        width: 60%;
+        margin-top: 20px;
+    }
+     .menu{
+         display: none;
+     }
+     .nav-bar{
+         margin: 0 2px;
+     }
+     .mobile-nav-icon{
+        float: right;
+        font-size: 200%;
+        margin: 20px;
+      
+        display: block;
+        cursor: pointer;
+       
+    }
+}
+@media screen and (max-width: 730px){
+    .achievement-child{
+        width: 100%;
+    }
+    .project-box{
+        width: 100%;
+    }
+    
+}
